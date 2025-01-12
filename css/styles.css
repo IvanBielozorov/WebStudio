@@ -10,3 +10,77 @@
 .menu-link{
     color: var(--main-title-color);
 }
+body {
+  font-family: "Roboto";
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+color: var(--hover-color);
+}
+.logo-span {
+  color: #000;
+}
+/* header */
+.header {
+   font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+}
+.nav-menu {
+  list-style: none;
+}
+.nav-menu-link {
+color: var(--main-title-color);
+}
+.nav-menu-link:hover {
+color: var(--hover-color);
+}
+.contact-list {
+  list-style: none;
+}
+.email {
+color: var(--main-text-color);
+}
+.phone-number {
+color: var(--main-text-color);
+}
+.email:hover {
+color: var(--hover-color);
+}
+.phone-number:hover {
+color: var(--hover-color);
+}
+/* main */
+.hero {
+  width: 1600px;
+  height: 600px;
+  background: var(--darc-bg-color);
+}
+.hero-title {
+  font-family: var(--font-family);
+font-weight: 900;
+font-size: 44px;
+line-height: 136%;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+.hero-button {
+  width: 216px;
+height: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 32px;
+padding-left: 32px;
+border-radius: 4px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: var(--hover-color);
+}

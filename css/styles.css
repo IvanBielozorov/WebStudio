@@ -67,7 +67,7 @@ color: var(--hover-color);
   font-family: var(--font-family);
 font-weight: 900;
 font-size: 44px;
-line-height: 136%;
+line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 text-align: center;
@@ -104,7 +104,7 @@ color: var(--main-title-color);
   font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
-line-height: 171%;
+line-height: 1.71;
 color: var(--main-text-color);
 }
 .action-title {
@@ -152,7 +152,7 @@ color: var(--main-text-color);
   font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
-line-height: 171%;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #fff;
 }
@@ -163,7 +163,7 @@ color: #fff;
   font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
-line-height: 171%;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }

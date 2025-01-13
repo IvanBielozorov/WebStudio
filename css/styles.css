@@ -84,3 +84,86 @@ border-radius: 4px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: var(--hover-color);
 }
+.speciality-list .team {
+  letter-spacing: 0.03em;
+}
+.speciality-list {
+  list-style: none;
+}
+.speciality-title {
+  display: none;
+}
+.speciality-item-title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+color: var(--main-title-color);
+}
+.speciality-text {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+color: var(--main-text-color);
+}
+.action-title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--main-title-color);
+}
+.action-list {
+  list-style: none;
+}
+.team-title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+color: var(--main-title-color);
+}
+.team-list {
+  list-style: none;
+}
+.team-name {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: var(--main-title-color);
+}
+.team-position {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: var(--main-text-color);
+}
+/* footer */
+.address {
+  width: 1600px;
+  height: 252px;
+  background: var(--darc-bg-color);
+}
+.address-text {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: #fff;
+}
+.address-list {
+  list-style: none;
+}
+.footer-contact {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}

@@ -41,6 +41,8 @@ color: var(--hover-color);
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 .nav-menu {
   list-style: none;
@@ -71,6 +73,8 @@ color: var(--hover-color);
   width: 1600px;
   height: 600px;
   background: var(--darc-bg-color);
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 .hero-title {
   font-family: var(--font-family);
@@ -92,6 +96,9 @@ padding-left: 32px;
 border-radius: 4px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: var(--hover-color);
+}
+.speciality {
+  padding-top: 94px;
 }
 .speciality-list .team {
   letter-spacing: 0.03em;
@@ -116,6 +123,10 @@ font-size: 14px;
 line-height: 1.71;
 color: var(--main-text-color);
 }
+.action {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .action-title {
   font-family: var(--font-family);
 font-weight: 700;
@@ -126,6 +137,10 @@ color: var(--main-title-color);
 }
 .action-list {
   list-style: none;
+}
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-title {
   font-family: var(--font-family);
@@ -154,8 +169,9 @@ color: var(--main-text-color);
 /*!!!!!!!!!!!!!!!!!!footer!!!!!!!!!!!!!*/
 .footer {
   width: 1600px;
-  height: 252px;
   background: var(--darc-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .address-text {
   font-family: var(--font-family);

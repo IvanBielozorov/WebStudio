@@ -201,7 +201,7 @@ color: rgba(255, 255, 255, 0.6);
   display: none;
 }
 .blocks-list {
-  list-style: none;;
+  list-style: none;
 }
 .blocks-link {
   font-family: var(--font-family);

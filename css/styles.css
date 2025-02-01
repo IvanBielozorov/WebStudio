@@ -75,6 +75,7 @@ color: var(--hover-color);
   background: var(--darc-bg-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  margin: 0 auto;
 }
 .hero-title {
   font-family: var(--font-family);
@@ -172,6 +173,7 @@ color: var(--main-text-color);
   background: var(--darc-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0 auto;
 }
 .address-text {
   font-family: var(--font-family);

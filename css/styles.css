@@ -254,6 +254,7 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
 }
+/* !!!!!!!!!!!Flex!!!!!!!!!!111 */
 .container {
   width: 1200px;
   margin-left: auto;
@@ -261,9 +262,78 @@ color: var(--main-text-color);
   padding-left: 15px;
   padding-right:15px;
   display: flex;
+  column-gap: 50px;
 }
 .header-position {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+}
+.nav-menu {
+  display: flex;
+  column-gap: 50px;
+}
+.contact-list {
+  display: flex;
+  column-gap: 50px;
+}
+.logo {
+  padding-right: 94px;
+}
+/* flex main-html */
+.hero-position {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: center;
+}
+.speciality-list {
+  display: flex;
+  column-gap: 30px;
+}
+.speciality-item-title {
+  display: flex;
+  row-gap: 10px;
+}
+.action-position {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+.action-title {
+  display: flex;
+}
+.action-list {
+  display: flex;
+  column-gap: 30px;
+}
+.team-position{
+  display: flex;
+  justify-content: center;
+  row-gap: 50px;
+  flex-wrap: wrap;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+/* !!!!!!!!!!!!footer!!!!!!!!!!!!!!! */
+.footer-position {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+/* !!!!!!!!!!!!!!!!!main portfolio!!!!!!!!!!! */
+.blocks-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 8px;
+}
+.box-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
 }

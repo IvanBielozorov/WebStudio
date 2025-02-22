@@ -118,6 +118,9 @@ background: var(--hover-color);
   height: 120px;
   background-image: url("../images/Rectangle.jpg");
   padding-bottom: 30px;
+  background-color:#f5f4fa;
+  border-radius: 4px;
+  background-position: center;
 }
 .speciality-item:nth-child(1)::before {
   content: "";

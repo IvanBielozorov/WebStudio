@@ -184,12 +184,19 @@ color: var(--main-title-color);
 .team-list {
   list-style: none;
 }
+.team-item {
+  background-image: url("../images/teamcardbg.jpg");
+  height: 368px;
+  box-shadow: 4px 6px 4px -5px;
+}
 .team-name {
   font-family: var(--font-family);
 font-weight: 500;
 font-size: 16px;
 text-align: center;
 color: var(--main-title-color);
+padding-top: 30px;
+padding-bottom: 10px;
 }
 .team-position {
   font-family: var(--font-family);
@@ -197,6 +204,7 @@ font-weight: 400;
 font-size: 16px;
 text-align: center;
 color: var(--main-text-color);
+padding-bottom: 30px;
 }
 /*!!!!!!!!!!!!!!!!!!footer!!!!!!!!!!!!!*/
 .footer {
@@ -274,6 +282,10 @@ padding: 6px 25px;
 .box-item {
   /* width="370" height="294" */
   flex-basis: calc((100% - 2 * 30px) / 3);
+  background-image: url("../images/portfoliocardbg.jpg");
+}
+.box-item:nth-child(1) {
+  box-shadow: 0px 3px 10px -5px;
 }
 .box-title {
   font-family: var(--font-family);
@@ -282,6 +294,8 @@ font-size: 18px;
 line-height: 2.00;
 letter-spacing: 0.06em;
 color: var(--main-title-color);
+padding-top: 20px;
+padding-bottom: 4px;
 }
 .box-text {
   font-family: var(--font-family);
@@ -290,6 +304,7 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
+padding-bottom: 20px;
 }
 /* !!!!!!!!!!!Flex!!!!!!!!!!111 */
 .container {

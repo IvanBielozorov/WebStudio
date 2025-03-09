@@ -276,6 +276,9 @@ padding: 6px 25px;
 .box {
   padding-bottom: 94px;
 }
+.boxes {
+  display: none;
+}
 .box-list {
   list-style: none;
 }

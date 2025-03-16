@@ -39,6 +39,9 @@ color: var(--hover-color);
 .logo-span {
   color: #000;
 }
+.footer-logo-span {
+  color: var(--secondary-text-color);
+}
 /*!!!!!!!!!!!!!index!!!!!!!!!!!!!!!!!!!*/
 /*!!!!!!!!!!!!!header!!!!!!!!!!!!!!!!!!*/
 .header {

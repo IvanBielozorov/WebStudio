@@ -86,6 +86,7 @@ color: var(--hover-color);
   padding-bottom: 200px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/herobg.png");
+  background-repeat: no-repeat;
 }
 .hero-title {
   font-family: var(--font-family);
@@ -213,7 +214,7 @@ padding-bottom: 30px;
 }
 /*!!!!!!!!!!!!!!!!!!footer!!!!!!!!!!!!!*/
 .footer {
-  width: 1600px;
+  /* width: 1600px; */
   background: var(--darc-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -278,7 +279,7 @@ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 
 background: var(--hover-color);
 padding: 6px 25px;
 }
-.box {
+.box-position {
   padding-bottom: 94px;
 }
 .boxes {
@@ -293,7 +294,7 @@ padding: 6px 25px;
   background-image: url("../images/portfoliocardbg.jpg");
   border: 1px solid #eee;
 }
-.box-item:nth-child(1) {
+.box-item:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 .box-title {
@@ -305,6 +306,8 @@ letter-spacing: 0.06em;
 color: var(--main-title-color);
 padding-top: 20px;
 padding-bottom: 4px;
+padding-left: 24px;
+padding-right: 24px;
 }
 .box-text {
   font-family: var(--font-family);
@@ -314,6 +317,8 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
 padding-bottom: 20px;
+padding-left: 24px;
+padding-right: 24px;
 }
 /* !!!!!!!!!!!Flex!!!!!!!!!!111 */
 .container {

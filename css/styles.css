@@ -68,8 +68,20 @@ color: var(--hover-color);
 .email {
 color: var(--main-text-color);
 }
+.email_svg {
+  fill: var(--main-text-color);
+}
+.email_svg:hover {
+  fill: #2196f3;
+}
 .phone-number {
 color: var(--main-text-color);
+}
+.phone-number_svg {
+  fill: var(--main-text-color)
+}
+.phone-number_svg:hover {
+  fill: #2196f3;
 }
 .email:hover {
 color: var(--hover-color);
@@ -79,7 +91,7 @@ color: var(--hover-color);
 }
 /*!!!!!!!!!!!!!!!!main!!!!!!!!!!!*/
 .hero {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   background: var(--darc-bg-color);
   padding-top: 200px;

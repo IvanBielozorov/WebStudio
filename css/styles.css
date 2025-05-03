@@ -68,26 +68,28 @@ color: var(--hover-color);
 .email {
 color: var(--main-text-color);
 }
+.email:hover {
+color: var(--hover-color);
+}
 .email_svg {
   fill: var(--main-text-color);
+  margin-right: 10px;
 }
-.email_svg:hover {
-  fill: #2196f3;
+.email:hover .email_svg {
+  fill: var(--hover-color);
 }
 .phone-number {
 color: var(--main-text-color);
 }
-.phone-number_svg {
-  fill: var(--main-text-color)
-}
-.phone-number_svg:hover {
-  fill: #2196f3;
-}
-.email:hover {
-color: var(--hover-color);
-}
 .phone-number:hover {
 color: var(--hover-color);
+}
+.phone-number_svg {
+  fill: var(--main-text-color);
+  margin-right: 10px;
+}
+.phone-number:hover .phone-number_svg {
+  fill: #2196f3;
 }
 /*!!!!!!!!!!!!!!!!main!!!!!!!!!!!*/
 .hero {

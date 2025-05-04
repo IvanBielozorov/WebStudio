@@ -45,6 +45,9 @@ color: var(--hover-color);
 /*!!!!!!!!!!!!!index!!!!!!!!!!!!!!!!!!!*/
 /*!!!!!!!!!!!!!header!!!!!!!!!!!!!!!!!!*/
 .header {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
    font-family: var(--font-family);
 font-weight: 500;
 font-size: 14px;
@@ -124,6 +127,9 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: var(--hover-color);
 }
 .speciality {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px;
 }
 .speciality-list .team {
@@ -175,6 +181,9 @@ line-height: 1.71;
 color: var(--main-text-color);
 }
 .action {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -190,6 +199,9 @@ color: var(--main-title-color);
   list-style: none;
 }
 .team {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
   background-image: url("../images/teambg.png");
@@ -227,13 +239,55 @@ text-align: center;
 color: var(--main-text-color);
 padding-bottom: 30px;
 }
+.regular-clients {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-list {
+  display: flex;
+  column-gap: 30px;
+}
+.clients-title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--main-title-color);
+margin-bottom: 50px;
+}
+.clients_svg {
+  fill: #afb1b8;
+}
+.clients-item {
+  display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #afb1b8;
+border-radius: 4px;
+width: 170px;
+height: 92px;
+}
+.clients-item:hover {
+  border: 1px solid var(--hover-color);
+  cursor: pointer;
+}
+.clients-item:hover .clients_svg{
+  fill: var(--hover-color);
+}
 /*!!!!!!!!!!!!!!!!!!footer!!!!!!!!!!!!!*/
 .footer {
-  /* width: 1600px; */
+  max-width: 1600px;
   background: var(--darc-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
   margin: 0 auto;
+}
+.address {
+  font-style: normal;
 }
 .address-text {
   font-family: var(--font-family);

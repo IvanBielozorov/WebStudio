@@ -437,6 +437,22 @@ padding-right: 24px;
   display: flex;
   column-gap: 30px;
 }
+.inscription {
+  position: relative;
+  bottom: 70px;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+padding-top: 27px;
+padding-bottom: 27px;
+}
 .team-position{
   display: flex;
   justify-content: center;

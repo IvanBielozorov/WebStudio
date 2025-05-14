@@ -42,6 +42,13 @@ color: var(--hover-color);
 .footer-logo-span {
   color: var(--secondary-text-color);
 }
+.footer-logo {
+    font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--hover-color);
+}
 /*!!!!!!!!!!!!!index!!!!!!!!!!!!!!!!!!!*/
 /*!!!!!!!!!!!!!header!!!!!!!!!!!!!!!!!!*/
 .header {
@@ -218,8 +225,9 @@ color: var(--main-title-color);
 }
 .team-item {
   background-image: url("../images/teamcardbg.jpg");
-  height: 368px;
+  height: 428px;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
   border-radius: 0 0 4px 4px;
 }
 .team-name {
@@ -237,7 +245,31 @@ font-weight: 400;
 font-size: 16px;
 text-align: center;
 color: var(--main-text-color);
-padding-bottom: 30px;
+padding-bottom: 16px;
+}
+.team-media-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin-bottom: 30px;
+}
+.team_svg {
+  fill: #afb1b8;
+}
+.team-media-box:hover .team_svg {
+  fill: #fff;
+}
+.team-media-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.team-media-box:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
 }
 .regular-clients {
   max-width: 1600px;
@@ -262,7 +294,7 @@ margin-bottom: 50px;
 .clients_svg {
   fill: #afb1b8;
 }
-.clients-item {
+.clients-box {
   display: flex;
 justify-content: center;
 align-items: center;
@@ -271,11 +303,11 @@ border-radius: 4px;
 width: 170px;
 height: 92px;
 }
-.clients-item:hover {
+.clients-box:hover {
   border: 1px solid var(--hover-color);
   cursor: pointer;
 }
-.clients-item:hover .clients_svg{
+.clients-box:hover .clients_svg{
   fill: var(--hover-color);
 }
 /*!!!!!!!!!!!!!!!!!!footer!!!!!!!!!!!!!*/
@@ -288,6 +320,7 @@ height: 92px;
 }
 .address {
   font-style: normal;
+  margin-top: 20px;
 }
 .address-text {
   font-family: var(--font-family);
@@ -467,8 +500,43 @@ padding-bottom: 27px;
 /* !!!!!!!!!!!!footer!!!!!!!!!!!!!!! */
 .footer-position {
   display: flex;
-  flex-direction: column;
-  row-gap: 20px;
+  /* flex-direction: column; */
+  /* row-gap: 20px; */
+}
+.footer-address {
+  width: 231px;
+}
+.footer-media {
+  margin-left: 70px;
+}
+.footer-media-title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #fff;
+margin-bottom: 20px;
+}
+.footer-media-list {
+  display: flex;
+  column-gap: 10px;
+}
+.footer_svg {
+  fill: #fff;
+}
+.footer-media-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.footer-media-box:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
 }
 /* !!!!!!!!!!!!!!!!!main portfolio!!!!!!!!!!! */
 .blocks-list {

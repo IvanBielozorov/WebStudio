@@ -53,10 +53,28 @@
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                 <button class="btn-close" data-modal-close>
-                    <svg class="svg_close" width="11" height="11">
-                        <use href="./icons/symbol-defs.svg#icon-close"></use>
-                    </svg>
+                    <svg class="svg-close" version="1.1" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 1024 1024">
+                        <g id="icomoon-ignore">
+                        </g>
+                        <path d="M1024 103.145l-103.145-103.145-408.855 408.855-408.855-408.855-103.145 103.145 408.855 408.855-408.855 408.855 103.145 103.145 408.855-408.855 408.855 408.855 103.145-103.145-408.855-408.855 408.855-408.855z"></path>
+                    </svg>                        
                 </button>
+                <form class="modal-form">
+                    <h4 class="modal-title">Залиште свої дані, ми вам передзвонимо</h4>
+                    <label class="label" for="name">Ім'я</label>
+                    <input class="input" type="text" id="name" required>
+                    <label class="label" for="phone">Телефон</label>
+                    <input class="input" type="tel" id="phone" required>
+                    <label class="label" for="email">Пошта</label>
+                    <input class="input" type="email" id="email">
+                    <label class="label" for="comment">Коментар</label>
+                    <textarea class="input-text-area" id="comment" placeholder="Введіть текст"></textarea>
+                    <div class="checkbox-label">
+                    <input type="checkbox" id="agreement" required>
+                    <label class="agreemant" for="agreement">Погоджуюся з розсилкою та приймаю <a class="agreement-link" href="#">Умови договору</a></label>
+                    </div>
+                    <button class="form-button" type="submit">Відправити</button>
+                </form>
               </div>
             </div>
         </section>

@@ -230,10 +230,19 @@ padding-left: 16px;
 }
 .checkbox-label {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* .checkbox-square {
   border: 1px solid var(--main-title-color);
 } */
+.checkbox {
+  border: 2px solid var(--main-title-color);
+  width: 16px;
+  height: 15px;
+  margin-right: 8px;
+}
 .agreement {
   font-family: var(--font-family);
 font-weight: 400;

@@ -194,6 +194,7 @@ font-size: 20px;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
+margin-bottom: 2px;
 }
 .label {
   font-family: var(--font-family);
@@ -201,6 +202,8 @@ font-weight: 400;
 font-size: 12px;
 letter-spacing: 0.01em;
 color: #757575;
+margin-top: 10px;
+margin-bottom: 4px;
 }
 .input {
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -214,7 +217,23 @@ border-radius: 4px;
 width: 448px;
 height: 120px;
 resize: none;
+margin-bottom: 20px;
 }
+.input-text-area::placeholder {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.01em;
+color: rgba(117, 117, 117, 0.5);
+padding-top: 12px;
+padding-left: 16px;
+}
+.checkbox-label {
+  margin-bottom: 30px;
+}
+/* .checkbox-square {
+  border: 1px solid var(--main-title-color);
+} */
 .agreement {
   font-family: var(--font-family);
 font-weight: 400;

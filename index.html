@@ -61,12 +61,28 @@
                 </button>
                 <form class="modal-form">
                     <h4 class="modal-title">Залиште свої дані, ми вам передзвонимо</h4>
-                    <label class="label" for="name">Ім'я</label>
-                    <input class="input" type="text" id="name" required>                        
-                    <label class="label" for="phone">Телефон</label>
-                    <input class="input" type="tel" id="phone" required>
-                    <label class="label" for="email">Пошта</label>
-                    <input class="input" type="email" id="email">
+                    <div class="label-input-container">
+                        <label class="label" for="name">Ім'я</label>
+                        <div class="input-container">
+                            <input class="input" type="text" id="name" required>
+                            <svg class="modal_svg" width="12" height="12">
+                                <use href="./icons/symbol-defs-modal.svg#icon-modal-man"></use>
+                            </svg>
+                        </div>                   
+                        <label class="label" for="phone">Телефон</label>
+                        <div class="input-container">
+                            <input class="input" type="tel" id="phone" required>
+                            <svg class="modal_svg" width="12" height="12">
+                                <use href="./icons/symbol-defs-modal.svg#icon-modal-telephone"></use>
+                            </svg>
+                        </div>
+                        <label class="label" for="email">Пошта</label>
+                        <div class="input-container">
+                            <input class="input" type="email" id="email">
+                            <svg class="modal_svg" width="12" height="12">
+                                <use href="./icons/symbol-defs-modal.svg#icon-modal-envelop"></use>
+                            </svg>
+                        </div>
                     <label class="label" for="comment">Коментар</label>
                     <textarea class="input-text-area" id="comment" placeholder="Введіть текст"></textarea>
                     <div class="checkbox-label">
@@ -74,6 +90,7 @@
                     <label class="agreement" for="agreement">Погоджуюся з розсилкою та приймаю <a class="agreement-link" href="#">Умови договору</a></label>
                     </div>
                     <button class="form-button" type="submit">Відправити</button>
+                    </div> 
                 </form>
               </div>
             </div>

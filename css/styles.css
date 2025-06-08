@@ -204,12 +204,28 @@ letter-spacing: 0.01em;
 color: #757575;
 margin-top: 10px;
 margin-bottom: 4px;
+width: 60px;
 }
 .input {
   border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 width: 448px;
 height: 40px;
+padding-left: 42px;
+}
+.input:active {
+  border-color: #2196F3;
+}
+.input:focus .modal_svg{
+  fill: #2196f3;
+}
+.input-container {
+  position: relative;
+}
+.modal_svg {
+  position: absolute;
+  top: 14px;
+  left: 15px;
 }
 .input-text-area {
   border: 1px solid rgba(33, 33, 33, 0.2);

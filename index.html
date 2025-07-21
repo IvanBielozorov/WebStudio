@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -49,7 +50,7 @@
         <section class="hero">
              <div class="container hero-position">
                 <div class="hero-container-title">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <h1 data-aos="fade-right" class="hero-title">Ефективні рішення для вашого бізнесу</h1>
             </div>
             <button class="hero-button btn-open" type="button" data-modal-open>Замовити послугу</button>
             <div class="backdrop is-hidden" data-modal>
@@ -122,7 +123,7 @@
         </section>
         <section class="action">
             <div class="container action-position">
-        <h2 class="action-title">Чим ми займаємося</h2>
+        <h2 data-aos="zoom-in" class="action-title">Чим ми займаємося</h2>
         <ul class="action-list">
             <li class="action-item">
                 <img class="action-image" src="./images/boxone.jpg" alt="Картинка людина за комп'ютером" width="370" height="294">
@@ -141,7 +142,7 @@
         </section>
         <section class="team">
             <div class="container team-position">
-            <h2 class="team-title">Наша команда</h2>
+            <h2 data-aos="zoom-in" class="team-title">Наша команда</h2>
             <ul class="team-list">
                 <li class="team-item">
                     <img class="team-image" src="./images/igord.jpg" alt="Ігор Дем'яненко-Product Designer" width="270" height="260">
@@ -320,7 +321,7 @@
         </section>
         <section class="regular-clients">
             <div class="container clients">
-                <h2 class="clients-title">Постійні клієнти</h2>
+                <h2 data-aos="zoom-in" class="clients-title">Постійні клієнти</h2>
                 <ul class="clients-list">
                     <li class="clients-item">
                         <a class="clients-link" href="#">
@@ -453,5 +454,7 @@
     </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
